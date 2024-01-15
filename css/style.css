@@ -8152,7 +8152,6 @@ a {
   color: #ffc500; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #ffc500 !important;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8875,7 +8874,8 @@ h1, h2, h3, h4, h5,
   .progress-wrap h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #434343; }
 
 .progress {
   height: 10px;
@@ -8917,7 +8917,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     font-size: 20px;
     font-weight: 400;
-    color: #fff; }
+    color: #ffc500; }
 
 .ftco-hireme {
   background: #ffc500;
@@ -8993,6 +8993,8 @@ h1, h2, h3, h4, h5,
       font-size: 20px; }
       .project .text h3 a {
         color: #fff; }
+        a:hover {
+          color: #434343 !important; }
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
